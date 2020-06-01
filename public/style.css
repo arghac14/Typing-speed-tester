@@ -1,0 +1,115 @@
+body {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.title {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: whitesmoke;
+  width: 100%;
+  height: auto;
+  background-color: skyblue;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.timer, .errors,
+.accuracy, .cpm, .wpm {
+  background-color:white;
+  height: 60px;
+  width: 70px;
+  margin: 8px;
+  padding: 12px;
+  border-radius: 20%;
+  box-shadow: grey 5px 8px 5px;
+}
+
+.errors{
+  color: red;
+}
+.wpm{
+  color: rgb(16, 197, 16);
+}
+.cpm, .wpm  {
+  display: none;
+}
+
+.head {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  color: skyblue;
+  font-weight: bolder;
+}
+
+.init_time, .init_errors,
+.init_accuracy, .init_cpm,
+.init_wpm {
+  font-size: 35px;
+}
+
+.content {
+  background-color: white;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 25px;
+  box-shadow: grey 5px 8px 5px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.input_box {
+  background-color: white;
+  font-weight: bolder;
+  height: 80px;
+  width: 40%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 10px;
+  padding: 15px;
+  border: 0px;
+  box-shadow: grey 5px 8px 5px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+.correct{
+  color: rgb(82, 200, 82);
+}
+
+.restart {
+  display: none;
+  background-color: skyblue;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 0px;
+  color: whitesmoke;
+  border-radius: 10px 10px 10px 10px;
+  width: 30%;
+  font-weight: bold;
+  box-shadow: grey 5px 8px 5px;
+}
+
+.start {
+  background-color: skyblue;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 0px;
+  color: whitesmoke;
+  border-radius: 10px 10px 10px 10px;
+  width: 30%;
+  font-weight: bold;
+  box-shadow: grey 5px 8px 5px;
+}
