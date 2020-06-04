@@ -10,7 +10,6 @@ let wpm_group = document.querySelector(".wpm");
 let error_group = document.querySelector(".errors");
 let accuracy_group = document.querySelector(".accuracy");
 
-
 let time_left = 60;
 let time_passed = 0;
 let total_errors = 0;
@@ -24,7 +23,7 @@ let timer = null;
 
 function ChangeContent() {
   content_text.textContent = null;
-  current_content = "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century."
+  current_content = "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century. If you have come this far without making lot of errors, then you really have a great typing speed!"
   
   current_content.split('').forEach(char => {
     const charSpan = document.createElement('span');
